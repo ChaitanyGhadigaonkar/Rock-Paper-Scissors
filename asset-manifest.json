@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors-/static/css/main.3bb93ff3.css",
-    "main.js": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors-/static/js/main.67d4bb14.js",
-    "static/js/787.c8ffd4a8.chunk.js": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors-/static/js/787.c8ffd4a8.chunk.js",
-    "static/media/victory.jpg": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors-/static/media/victory.b0f2c86a96f8dc6c880d.jpg",
-    "index.html": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors-/index.html",
-    "main.3bb93ff3.css.map": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors-/static/css/main.3bb93ff3.css.map",
-    "main.67d4bb14.js.map": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors-/static/js/main.67d4bb14.js.map",
-    "787.c8ffd4a8.chunk.js.map": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors-/static/js/787.c8ffd4a8.chunk.js.map"
+    "main.css": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors/static/css/main.3bb93ff3.css",
+    "main.js": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors/static/js/main.022a4cec.js",
+    "static/js/787.c8ffd4a8.chunk.js": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors/static/js/787.c8ffd4a8.chunk.js",
+    "static/media/victory.jpg": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors/static/media/victory.b0f2c86a96f8dc6c880d.jpg",
+    "index.html": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors/index.html",
+    "main.3bb93ff3.css.map": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors/static/css/main.3bb93ff3.css.map",
+    "main.022a4cec.js.map": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors/static/js/main.022a4cec.js.map",
+    "787.c8ffd4a8.chunk.js.map": "/ChaitanyGhadigaonkar/Rock-Paper-Scissors/static/js/787.c8ffd4a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bb93ff3.css",
-    "static/js/main.67d4bb14.js"
+    "static/js/main.022a4cec.js"
   ]
 }
