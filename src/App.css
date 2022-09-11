@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(315deg,#2a2a72,#009ffd 74%);
+    height: 100vh;
+}
+.container { 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 25px; */
+    /* padding-top: 40px; */
+    color: rgb(0, 0, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rounds {
+    text-align: center;
+    margin: 20px;
+    /* font-size: 22px; */
+    font-family: "Montserrat",sans-serif;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+/* main */
+.main {
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.player {
+    width: 400px;
+    height: 250px;
+    /* border: 2px solid red; */
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.player-h1{
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+}
+.images{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.images img{
+    width: 80px;
+    height: 80px;
+    margin: 0px 20px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+}
+.images img:hover{
+    cursor: pointer;
+    background-color: rgba(195, 191, 191);
+
+}
+.player-pick-1{
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+}
+.vs {
+    width: 150px;
+    height: 250px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.vs p{
+    font-size: 25px;
+    font-family: "Montserrat",sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.computer {
+    width: 400px;
+    height: 250px;
+    /* border: 2px solid green; */
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
 }

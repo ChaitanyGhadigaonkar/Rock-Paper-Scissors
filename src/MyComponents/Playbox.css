@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(315deg, #2a2a72, #009ffd 74%);
+}
+
+.head {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 25px; */
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.rounds {
+    text-align: center;
+    margin: 20px;
+    /* font-size: 22px; */
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+
+
+/* main */
+.main {
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.player {
+    width: 400px;
+    height: 250px;
+    /* border: 2px solid red; */
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.player-h1 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 80px;
+    height: 80px;
+    margin: 0px 20px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+}
+
+.images img:hover {
+    cursor: pointer;
+    background-color: rgba(195, 191, 191);
+
+}
+
+.player-pick-1 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.vs {
+    width: 150px;
+    height: 250px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vs p {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.computer {
+    width: 400px;
+    height: 250px;
+    /* border: 2px solid green; */
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.computer-box,
+.player-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.scoreH2 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+}
+
+.buttonDiv {
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.tryAgainBtn {
+    display: none;
+    background: linear-gradient(315deg, #2a2a72, #009ffd 74%);
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding: 3px 5px;
+    border: 2px solid #2a2a72;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    border-radius: 12px;
+    width: 140px;
+    margin: 0px auto;
+}
+.footer{
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin: 2px auto;
+   
+
+}
+
+@media screen and (max-width:1690px) {
+    .main {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width:1235px) {
+    .main {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:1208px) {
+    .main {
+        flex-direction: column;
+        height: 660px;
+    }
+    .container {
+        height: auto;
+    }
+    .buttonDiv {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .main {
+        width: auto;
+    }
+    .container {
+        height: auto;
+    }
+    .player,.computer {
+        width: 350px;
+
+    }
+}
+@media screen and (max-width: 390px){
+    .images img {
+        
+        margin: 0px 8px;
+    }
+    .player, .computer {
+        width: 90vw;
+    }
+}
